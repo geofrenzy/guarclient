@@ -1,0 +1,4 @@
+uasclient.egg-info/PKG-INFO
+uasclient.egg-info/SOURCES.txt
+uasclient.egg-info/dependency_links.txt
+uasclient.egg-info/top_level.txt
