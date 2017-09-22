@@ -13,7 +13,9 @@ setup(
     license="MIT",
     author="GeoNetwork",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        "dnspython"
+    ],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
