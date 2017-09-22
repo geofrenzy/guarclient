@@ -5,7 +5,7 @@ from string import Template
 import dns.resolver
 
 
-def uasLookup(droneid):
+def lookupuas(droneid):
     dronehost = droneid + '.uas.directory'
     txtanswers = dns.resolver.query(dronehost, 'TXT')
     rdapanswers = dns.resolver.query('_rdap._tcp.' + dronehost, 'URI')
@@ -36,5 +36,5 @@ def uasLookup(droneid):
 if __name__ == "__main__":
     # execute only if run as a script
     droneid = input("Drone ID: ")
-    result = uasLookup(droneid)
+    result = lookupuas(droneid)
     print(result)

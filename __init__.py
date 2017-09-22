@@ -1,2 +1,2 @@
-__all__ = ["uasLookup"]
-from guarClient import uasLookup
+__all__ = ["guarclient"]
+from guarclient import lookupuas

@@ -7,7 +7,7 @@ except IOError:
     long_description = ""
 
 setup(
-    name="uasclient",
+    name="guarclient",
     version="0.1.0",
     description="A client for querying the Global Unmanned Airframe Registry",
     license="MIT",
